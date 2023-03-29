@@ -9,7 +9,7 @@ app.config["MONGO_URI"] = "mongodb+srv://sam:rfid@cluster0.dt27d.mongodb.net/AIt
 mongo = PyMongo(app)
 print("Connected to MongoDB Atlas!")
 
-@app.route("/workers")
+@app.route("/workers", methods=['POST','GET'])
 def SaRoute():
     image_docs = mongo.db.Workers.find({}, {"picture": 1, "Time": 1})
     images = []
