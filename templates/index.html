@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AItruders</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+    <script src="https://kit.fontawesome.com/1ae1102d7b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="content">
+
+        <video id="background-video" autoplay loop muted poster="static/images/background1.jpg">
+            <source src="static/images/background.mp4" type="video/mp4">
+        </video>
+        <nav>
+            <img src="static/images/logo.png" width="100px" height="100px" alt="">
+            <div>
+                <a href="#">Home</a>
+                <a href="#product">Product</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <button><a href="/login">Sign Up</a></button>
+            </div>
+        </nav>
+        <div id="main">
+            <h1><span style="color:#ff004f">L'intelligence Artificielle</span> a votre service</h1>
+            <p> Nous proposons des solutions pour la sécurité et le gardinage <br> Vous voulez en savoir plus ?</p>
+            <button><a href="#contact">Contactez Nous</a></button>
+        </div>
+        
+    </div>
+
+    <div id="product">
+        <h1> Product </h1>
+        <div class="product-list">    
+            <div class="left">
+                <img src="static/images/product.jpg" alt="">
+                <div class="layer">
+                    <h1><a href="/workers">AItru DET 1.0</a></h1>
+                    <p>Notre solution logicielle d'intelligence artificielle offre une solution avancée pour la détection d'intrus en temps réel,
+                         en utilisant une caméra . Grâce à des algorithmes sophistiqués
+                         d'apprentissage automatique, notre logiciel est capable de détecter et de signaler immédiatement toute activité suspecte sur le flux vidéo en direct.
+                        <br>
+                        <p>
+                            La solution utilise une combinaison de techniques de reconnaissance d'image et de détection pour identifier les intrus et les travailleur
+                           Le systeme envoi une notification à l'utilisateur sur son smartphone ou son ordinateur portable.
+                            Il est également possible d'enregistrer des vidéos et des images de l'activité détectée pour une analyse ultérieure. </p>
+                        </p>
+                         <button>
+                             <a href="/workers">TRY IT NOW</a>
+                         </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            
+            <h1>About</h1>
+            <div class="layer2">
+                <p>Notre solution logicielle d'intelligence artificielle pour la détection d'intrus en temps réel a été initié en tant que projet académique par deux étudiants passionnés de l'informatique.
+                    
+                 <br>   Ayant une solide formation en programmation et en intelligence artificielle, les étudiants ont décidé de relever le défi de créer une solution innovante pour la surveillance de la sécurité, qui pourrait être utilisée dans une variété de contextes, tels que les entreprises, les institutions publiques et les résidences.
+                             
+                   <p>
+                    Le projet a impliqué une recherche approfondie et une analyse des technologies disponibles pour la détection d'intrus, ainsi qu'une planification minutieuse de l'architecture logicielle et des fonctionnalités requises pour répondre aux besoins des utilisateurs.
+                    Grâce à une collaboration étroite et à une division claire des tâches, les deux étudiants ont pu développer rapidement et efficacement le logiciel, en utilisant des outils et des techniques modernes de développement de logiciels. 
+                    <br>
+                    <p>
+                        Le projet a été un grand succès et a permis aux étudiants d'appliquer leurs connaissances théoriques en informatique à un projet pratique concret, tout en développant leurs compétences en travail d'équipe, en gestion de projet et en résolution de problèmes.</p>
+                    </p>
+                </p>
+                </div>
+            </div>
+    </div>
+
+   
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Us</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>samsafarbati@hotmail.com</p>
+                    <p><i class="fa-solid fa-paper-plane"></i>Achraf.TAIBI@etu.uca.fr</p>
+                    <p><i class="fa-solid fa-square-phone"></i>0767859447</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/samy_s.b/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/SafarbatiSami"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/sami-safarbati/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                
+                </div>
+                <div class="contact-right">
+                    
+                </div>
+            </div>
+    
+        </div>
+    </div>    
+
+
+
+
+</body>
+</html>
