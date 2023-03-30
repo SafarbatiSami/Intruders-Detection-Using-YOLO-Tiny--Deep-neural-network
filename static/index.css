@@ -61,7 +61,7 @@ nav a:hover::after{
 
 nav button{
     background: none;
-    padding: 16px;
+    padding: 11px;
     border-radius: 16px;
     color: white;
     border: 2px solid;
@@ -113,7 +113,7 @@ nav button:hover{
    
 }
 #product{
-    font-size: 28px;
+    font-size: 20px;
 }
 .product-list{
     display: grid;
@@ -155,18 +155,18 @@ nav button:hover{
     flex-direction: column;
     padding: 0 10px;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     transition: height 0.5s;
 }
 .layer h1{
     font-weight: 900;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .layer a{
         
         color: #fff;
         text-decoration: none;
-        font-size: 28px;
+        font-size: 20px;
         font-weight: bolder;
         position: relative;
    
@@ -187,7 +187,7 @@ nav button:hover{
 }
 .container{
     color: #fff;
-    font-size: 28px;
+    font-size: 20px;
   
     
 }
@@ -213,7 +213,7 @@ nav button:hover{
 .contact-left p i{
     color: #ff004f;
     margin-right:15px ;
-    font-size: 25px;
+    font-size: 2opx;
 }
 .social-icons{
     margin-top: 30px;
@@ -242,8 +242,8 @@ nav button:hover{
 
 #product button{
     color: white;
-    padding: 18px;
-    margin-bottom: 50px;
+    padding: 10px;
+    margin-bottom: 22px;
     border-radius: 16px;
     border: 2px solid;
     background: none;
